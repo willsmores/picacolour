@@ -11,7 +11,7 @@ function App() {
 
         <form action="#">
           <div class="searchBar">
-            <label for="searchInput">I want to see images of</label>
+            <label for="searchInput">Show me pictures of</label>
             <input type="text" placeholder="cities" id="searchInput" required />
           </div>
 

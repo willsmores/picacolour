@@ -12,7 +12,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 
@@ -24,17 +24,17 @@ h2,
 h3,
 h4,
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
 /* wrapper styles */
 
 .wrapper {
-    max-width: 1200px;
-    width: 82.5%;
-    margin: 0 auto;
+  max-width: 1200px;
+  width: 82.5%;
+  margin: 0 auto;
 }
 
 
@@ -42,7 +42,7 @@ ul {
 
 body {
 	background: linear-gradient(0deg, #40e0d0, #ff8c00, #ff0080);
-    background-attachment: fixed;
+  background-attachment: fixed;
 	height: 100vh;
 }
 
@@ -59,13 +59,13 @@ body {
 }
 
 h1 {
-    font-family: 'Lilita One', cursive;
-    font-weight: 700;
-    font-size: 7rem;
+  font-family: 'Lilita One', cursive;
+  font-weight: 700;
+  font-size: 7rem;
 }
 
 h2 {
-    font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 h2,
@@ -74,8 +74,8 @@ label,
 input,
 button,
 select {
-    font-family: 'Readex Pro', sans-serif;
-    font-weight: 300;
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 300;
 }
 
 p,
@@ -83,100 +83,102 @@ label,
 input,
 button,
 select {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 header {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 input {
-    background: white;
-    border: 2px solid black;
-    height: 30px;
-    margin: 0 10px;
-    transition: 0.2s ease-in-out;
+  background: white;
+  border: 2px solid black;
+  height: 30px;
+  margin: 0 10px;
+  transition: 0.2s ease-in-out;
 }
 
 input[type="text"] {
-    width: 200px;
+  width: 200px;
 }
 
 input[type="submit"] {
-    cursor: pointer;
-    background: black;
-    border: 2px solid black;
-    color: white;
+  cursor: pointer;
+  background: black;
+  border: 2px solid black;
+  color: white;
 }
 
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-    background: white;
-    border: 2px solid black;
-    color: black;
+  background: white;
+  border: 2px solid black;
+  color: black;
 }
 
 img {
-    width: 350px;
-    height: 350px;
-    display: block;
-    object-fit: cover;
-    border: 6px solid black;
-    margin-bottom: 10px;
+  width: 350px;
+  height: 350px;
+  display: block;
+  object-fit: cover;
+  border: 6px solid black;
+  margin-bottom: 10px;
 }
 
 select {
-    background: white;
-    border-radius: 0;
-    border: 2px solid black;
-    height: 30px;
-}
-
-.results a {
-    color: black;
-}
-
-.headerFlex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background: white;
+  border-radius: 0;
+  border: 2px solid black;
+  height: 30px;
 }
 
 .results {
-    padding-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  a {
+    color: black;
   }
+}
+
+.headerFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 .pexelResult {
-    margin: 15px 10px;
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  margin: 15px 10px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .imageContainer {
 	transition: all .3s;
-}
 
-.imageContainer:hover,
-.imageContainer:focus {
+  &:hover,
+  &:focus {
     transform: scale(1.05);
+  }
 }
 
 form {
-    padding-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .colourSelection {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 select,
@@ -191,57 +193,55 @@ select option[value=""] {
 
 .colourSelector,
 .searchBar {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 footer {
-    margin: 20px 0;
-    text-align: center;
-}
-
-footer p {
+  margin: 20px 0;
+  text-align: center;
+  p {
     font-size: 1.4rem;
     line-height: 2.2rem;
-}
-
-footer a {
+  }
+  a {
     color: black;
+  }
 }
 
 .errorMsg {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .loading-overlay {	
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    height:100%;
-    display: none;
-    background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height:100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
   }
 
 .spinner-container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
 
 .spinner {
-    width: 40px;
-    height: 40px;
-    border: 4px #ddd solid;
-    border-top: 4px #2e93e6 solid;
-    border-radius: 50%;
-    animation: sp-anime 0.8s infinite linear;
+  width: 40px;
+  height: 40px;
+  border: 4px #ddd solid;
+  border-top: 4px #2e93e6 solid;
+  border-radius: 50%;
+  animation: sp-anime 0.8s infinite linear;
 }
 
 @keyframes sp-anime {
-    100% { 
-        transform: rotate(360deg); 
-    }
+  100% { 
+    transform: rotate(360deg); 
+  }
 }
 
 
@@ -249,52 +249,52 @@ footer a {
 
 @media (max-width: 988px) {
   
-    .wrapper {
-        width: 87.5%;
-    }
+  .wrapper {
+    width: 87.5%;
+  }
 
 }
 
 
 @media (max-width: 600px) {
 
-    h1 {
-        font-size: 6rem;
-    }
-    
-    h2 {
-        font-size: 2.0rem;
-    }
-    
-    p,
-    label,
-    input,
-    button,
-    select {
-        font-size: 1.4rem;
-    }
+  h1 {
+    font-size: 6rem;
+  }
+  
+  h2 {
+    font-size: 2.0rem;
+  }
+  
+  p,
+  label,
+  input,
+  button,
+  select {
+    font-size: 1.4rem;
+  }
 
-    footer p {
-        font-size: 1.2rem;
-    }
+  footer p {
+    font-size: 1.2rem;
+  }
 
-    input[type="text"] {
-        width: 120px;
-    }
+  input[type="text"] {
+    width: 120px;
+  }
 }
 
 
 @media (max-width: 423px) {
 
-    .wrapper {
-        width: 92.5%;
-    }
+  .wrapper {
+    width: 92.5%;
+  }
 
-    h1 {
-        font-size: 5.8rem;
-    }
-    
-    h2 {
-        font-size: 1.8rem;
-    }
+  h1 {
+    font-size: 5.8rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
 }
